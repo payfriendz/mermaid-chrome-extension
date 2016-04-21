@@ -15,6 +15,6 @@ This Chrome extension autodetects GitHub Flavored Markdown code blocks with the 
 ```mermaid
 sequenceDiagram
   A->>B: Hello
-	Note right of B: B stares at A awkwardly
+	Note right of B: B stares at A awkwardly for a moment
 	B-->>A: Oh, hello!
 ```
