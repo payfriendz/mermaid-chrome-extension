@@ -13,6 +13,7 @@ This Chrome extension autodetects GitHub Flavored Markdown code blocks with the 
 * Select the repo folder
 
 ```mermaid
+sequenceDiagram
   A->>B: Hello
 	Note right of B: B stares at A awkwardly
 	B-->>A: Oh, hello!
