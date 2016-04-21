@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"Mermaid for Github",
+		"description": "Renders charts from Mermaid markup on Github",
+    "version":"1.0.0",
+    "permissions":["tabs"],
+    "content_scripts":[{
+	    "matches":["*://github.com/*"],
+	    "css":["mermaid.forest.css"],
+	    "js":["mermaid.js","init.js"]
+		}]
+}
