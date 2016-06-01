@@ -5,6 +5,7 @@
     "version":"6.0.0.0",
     "permissions":["tabs"],
     "content_scripts":[{
+			"run_at": "document_end",			
 	    "matches":["*://github.com/*"],
 	    "css":["mermaid.forest.css"],
 	    "js":["mermaid.js","init.js"]
