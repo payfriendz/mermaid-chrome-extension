@@ -18,3 +18,9 @@ sequenceDiagram
 	Note right of B: B stares at A awkwardly for a moment
 	B-->>A: Oh, hello!
 ```
+
+## Change the theme
+Just edit `manifest.json`, change the `css` value to one of these:
+- mermaid.css
+- mermaid.dark.css
+- mermaid.forest.css
